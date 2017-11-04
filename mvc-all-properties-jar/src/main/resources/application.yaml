@@ -1,0 +1,12 @@
+server:
+    port: 13108
+    contextPath: /security-demo
+    servlet-path: /spring
+
+
+spring:
+    mvc:
+        view:
+            prefix: /
+            suffix: .jsp
+    static-path-pattern: /**
